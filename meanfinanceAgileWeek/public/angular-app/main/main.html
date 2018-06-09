@@ -1,0 +1,21 @@
+<div class="container" ng-controller="HomepageController as vm">
+
+    <h1>Recent News Stories In Business</h1>
+    
+    <div ng-repeat="story in vm.stories">
+            <!--<img class="himage" src = "{{ story.urlToImage }}">-->
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="newslinks" ng-href="{{ story.url }}">{{ story.title }}</a>
+                    </div>
+                    <div class="panel-body">
+                        {{story.description}}
+                    </div>
+                </div>
+            <br>
+            <br>
+            <br>
+            </div>
+    </div>
+</div>

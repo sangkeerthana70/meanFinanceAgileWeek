@@ -1,0 +1,53 @@
+.story {
+    width:51%;
+    margin-top:30px;
+    font-size:20px;
+    border-bottom-style:solid;
+    border-width:0.5px;
+    padding:20px;
+    float: right;
+}
+.himage {
+    height: 250px;
+    width : 300px;
+    float:left;
+}
+#mySideBar{
+    float: left;
+    height: 100%;
+}
+#dashboardTable{
+    margin-left: 20%;
+    margin-right: 30%;
+}
+div {
+    font-family:"Roboto Condensed";
+}
+h1 {
+    font-family:"Roboto Condensed";
+    text-align:center;
+}
+.newslinks {
+    font-family:"Merriweather";
+    font-size:25px;
+    padding:0px;
+}
+ul {
+  list-style-type: none;
+}
+.mainPage{
+    margin-left:30px;
+    margin-right:50px;
+}
+.description{
+    text-size:20px
+}
+li {
+    padding:0px;
+}
+/*body {*/
+/*background-image:url('/images/background.png');*/
+/*background-repeat:no-repeat;*/
+/*background-attachment: fixed;*/
+/*background-size:cover;*/
+/*}*/
